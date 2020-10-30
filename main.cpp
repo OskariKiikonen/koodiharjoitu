@@ -54,6 +54,7 @@ int main()
     cout << "Yli jäävän alueen koko on siis 15*" << alueen_pituus%laatta_pituus << ": " << 15 * (alueen_pituus%laatta_pituus) << "m2"<<endl;
 
     cout << "valmis " << endl;
+    cout << endl;
 
     string autoja[8]={"Hyundai", "Mersu", "Toyota"};
 
@@ -65,6 +66,7 @@ int main()
 
     autoja[7]="BMW";
     cout << "auto indexillä 7: " << autoja[7] << endl;
+    cout << endl;
 
     if(ika==43)
     {
