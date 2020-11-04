@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <center>
+      <br />
+      <br />
+      <br />
+      <form action="https://api.particle.io/v1/devices/2f0035001947393035313138/led?access_token=d0161179d2fb1ba194b44a7d6a9628da7e785f2c" method="POST">
+       LED:n kontrollointi web-käyttöliittymällä
+      <br />
+      <br />
+      <input name="arg" type="radio" value="on" />
+      Sytytä LED. 
+      <br />
+      <input name="arg" type="radio" value="off" />
+      Sammuta LED. 
+      <br />
+      <br />
+      <input type="submit" value="Valmis" />
+    </form> 
+  </center> 
+</body> 
+</html>
